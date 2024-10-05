@@ -1,0 +1,33 @@
+/* App.css */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.custom-card {
+  width: 18rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.buy-now-btn {
+  width: 100%;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
